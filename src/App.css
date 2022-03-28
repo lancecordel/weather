@@ -1,0 +1,110 @@
+.App {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+input{
+  margin: 5px;
+  border-radius: 6px;
+  padding: 3px;
+  border: 1px solid silver;
+  box-shadow: 2px 2px rgba(20, 20, 20, .25);
+}
+
+.city{
+  font-size: 27px;
+  font-weight: bold;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 270px;
+  height: 525px;
+  border: 2px solid;
+  border-radius: 15px;
+  background-color: rgb(212, 212, 212);
+}
+
+p{
+  margin: 0px;
+}
+
+#city{
+  border: 1px solid;
+}
+
+.daybox{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 90px;
+}
+
+.day{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  width: 85px;
+  width: 35%;
+}
+
+img{
+  height: 80px;
+  width: 80px;
+}
+
+.detailsbox{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4px;
+  text-align: left;
+  color: black;
+  /* border: 1px solid; */
+}
+
+.clarity{
+  font-size: 14px;
+  margin: 0;
+}
+
+.low{
+  font-size: 11px;
+}
+
+.high{
+  font-size: 11px;
+}
+.sunrise{
+  font-size: 9px;
+}
+
+.sunset{
+  font-size: 9px;
+}
+
+.humidity{
+  font-size: 9px;
+}
+
+.temp{
+  font-size: 15px;
+}
+
+
+
+
+
+
